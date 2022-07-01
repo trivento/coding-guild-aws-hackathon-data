@@ -28,7 +28,7 @@ git config  -l
 ### Check your ssh identity
 
 Git is using `$HOME/.ssh/id_rsa` as your default ssh identity for authentication.
-The public of this identity `$HOME/.ssh/id_rsa_pub` should be uploaded to your github repo.
+The public key of this identity, stored in `$HOME/.ssh/id_rsa_pub`, should be uploaded to your github repo.
 
 If your identity is in a different file, set the environment variable.
 ```
