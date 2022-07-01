@@ -83,4 +83,4 @@ if __name__ == '__main__':
         get_spot_prices(AVAILABILITY_ZONE_B),
         get_spot_prices(AVAILABILITY_ZONE_C),
     )
-    # print(json.dumps(get_spot_prices(AVAILABILITY_ZONE_A)))
+    print(json.dumps(get_spot_prices(AVAILABILITY_ZONE_A)))

@@ -1,13 +1,5 @@
 # Get spot prices from AWS
 
-## Setup python env
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
 ### Setup aws credentials
 
 * Login to the aws console
@@ -23,6 +15,24 @@ Fill in the following values:
 * AWS Secret Access Key [None]: COPY_FROM_AWS_CONSOLE
 * Default region name [None]: eu-central-1
 * Default output format [None]: json
+
+
+## Setup python env - using pipenv
+
+Prerequisites: install pipenv
+
+```bash
+pipenv install
+pipenv shell
+```
+
+## Setup python env - alternative - using pip
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install boto3 matplotlib
+```
 
 ## Run the script
 
