@@ -32,6 +32,6 @@ Components:
 ## Athena
 
 * connects to S3 and Glue Datacatalog
-* provider federated view of underlying data
-* can be queries using SQL
+* provides a federated view of underlying data
+* can be queried using SQL
 * compatible with/provides interface for Hadoop queries 
