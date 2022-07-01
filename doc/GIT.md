@@ -48,7 +48,7 @@ git checkout -b new-feature-x
 # show current branch
 git branch
 
-# set as remoteand push
+# set as remote and push
 git push --set-upstream origin new-feature-x
 
 # delete
@@ -58,9 +58,7 @@ git branch -d new-feature-x
 ### Add code
 ```
 git add yourfile.txt
-
 git commit -m "new file"
-
 git push
 ```
 
